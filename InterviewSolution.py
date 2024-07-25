@@ -29,7 +29,7 @@ class Solution:
         
     def subtraction(self):
         current = self.head.next
-        ans = current.data
+        ans = self.head.data
         while current is not None:
             ans = ans - current.data
             current = current.next
